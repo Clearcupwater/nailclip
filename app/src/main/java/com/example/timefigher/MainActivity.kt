@@ -140,7 +140,8 @@ class MainActivity : AppCompatActivity() {
                 endGame()
             }
         }
-
+        countDownTimer.start()
+        gameStarted = true
 
     }
 
